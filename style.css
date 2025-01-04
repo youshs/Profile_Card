@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (min-width: 320px){
+  .container {
+    width: 90%;
+  }
+}
 p{
     font-size: 15px;
     color: hsl(0, 0%, 59%);
@@ -12,6 +17,7 @@ p{
 h2{
     color:hsl(229, 23%, 23%) ;
 }
+
 
 
 .container{
