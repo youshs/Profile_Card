@@ -79,7 +79,7 @@ h2{
 
 
 /* Mobile (375px) */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) {
     
     h2 {
         color: green;
@@ -89,13 +89,6 @@ h2{
     }
     .profile_box{
         max-width: 50%;
-    }
-    
-}
-@media screen and (max-width: 320px) {
-    
-    h2 {
-        color: red;
     }
     
 }
