@@ -13,49 +13,6 @@ p{
 h2{
     color:hsl(229, 23%, 23%) ;
 }
-/* Desktop */
-@media  screen and (min-width: 1440px) {
-    .container {
-        padding: 40px;
-    }
-
-    .profile_box {
-        max-width: 400px; /* Larger box on Desktop */
-    }
-
-    .profile_img {
-        width: 120px; /* Larger profile image */
-    }
-
-    p {
-        font-size: 1.1rem; /* Larger text on Desktop */
-    }
-}
-
-/* Mobile (375px) */
-@media screen and (max-width: 375px) {
-    body {
-        background-position: -200px -300px, 400px 200px; /* Adjust background positions */
-    }
-
-    .profile_box {
-        width: 90%; /* Full-width on mobile */
-    }
-
-    .profile_img {
-        width: 80px; /* Smaller profile image */
-        margin-top: -30px;
-    }
-
-    .row {
-        flex-direction: column; /* Stack rows on small screens */
-        gap: 20px;
-    }
-
-    p {
-        font-size: 0.875rem; /* Smaller text for mobile */
-    }
-}
 
 .container{
     font-family: 'Kumbh Sans',sans-serif;
@@ -66,9 +23,9 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("image/bg-pattern-top.svg"),url('image/bg-pattern-bottom.svg');
+    background-image: url("image/bg-pattern-top.svg"),url("image/bg-pattern-bottom.svg");
     background-repeat: no-repeat,no-repeat;
-    background-position: -350px -600px,600px 350px;
+    background-position: -120% 120%,180% -100%;
 }
 
 .profile_box{
@@ -117,4 +74,18 @@ h2{
     justify-content: space-around;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+
+
+/* Mobile (375px) */
+@media screen and (min-width: 320px) {
+    
+    h2 {
+        color: green;
+    }
+    .container{
+       max-width: 100%;
+    }
+    
 }
