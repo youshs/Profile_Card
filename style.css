@@ -9,6 +9,7 @@
 
 p{
     font-size: 18px;
+    font-weight: 400;
     color: hsl(0, 0%, 59%);
 }
 h2{
@@ -92,6 +93,8 @@ body{
     align-items: center;
     text-align: center;
 }
+
+
 
 
 
