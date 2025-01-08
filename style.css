@@ -28,8 +28,9 @@ body{
     gap: 30px;
     background-image: url("image/bg-pattern-top.svg"),url("image/bg-pattern-bottom.svg");
     background-repeat: no-repeat,no-repeat;
-    background-position: -120% 120%,180% -100%;
+    background-position: -350px -600px,600px 350px;
 }
+
 
 .profile_box{
     width:350px;
@@ -62,7 +63,7 @@ body{
     margin-bottom: 50px;
 }
 .profile_img:hover{
-    box-shadow: 0 0 0 5px  #BC9C22;
+    box-shadow: 0 0 0 5px hsl(239, 32%, 69%);
 }
 .information{
     display: flex;
